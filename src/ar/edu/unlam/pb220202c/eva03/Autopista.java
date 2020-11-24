@@ -10,7 +10,7 @@ public class Autopista {
 	private HashMap <Integer,Vehiculo> telapase;
 	private HashSet <Vehiculo> vehiculosEnCirculacion;
 	
-	public void registrarTelepase (Integer numeroTelpase, Vehiculo vehiculo) {
+	public Boolean registrarTelepase (Integer numeroTelpase, Vehiculo vehiculo) {
 		
 	}
 	public Boolean ingresarAutopista (Integer numeroTelepase) {
